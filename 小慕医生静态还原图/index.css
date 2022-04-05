@@ -330,11 +330,9 @@ section .dep-int .dip-int-w .dip-int-w-h3::before {
   clear: both;
 }
 section .dep-int .dip-int-w .dip-int-w-h3 h3 {
-  position: absolute;
   left: 15px;
 }
 section .dep-int .dip-int-w .dip-int-w-h3 h3::before {
-  position: absolute;
   top: 5px;
   left: -15px;
 }
@@ -397,6 +395,88 @@ section .dep-int .dip-int-w .office div ul li a:hover {
   color: #00978E;
 }
 section .expert {
+  position: relative;
+  top: 20px;
   width: 1200px;
   margin: 0 auto;
+}
+section .expert .expert-h3 {
+  position: relative;
+  left: 15px;
+}
+section .expert .expert-h3 h3::before {
+  top: 3px;
+  left: -15px;
+}
+section .expert .expert-h3 a {
+  position: absolute;
+  width: 77px;
+  height: 18px;
+  color: #999999;
+  right: 0;
+  top: 0px;
+}
+section .expert .expert-introductions {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section .expert .expert-introductions .expert-introduction {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 30px;
+}
+section .expert .expert-introductions .expert-introduction:nth-child(4) {
+  margin-left: 15px;
+}
+section .expert .expert-introductions .expert-introduction:nth-child(5) {
+  margin-left: 10px;
+}
+section .expert .expert-introductions .expert-introduction:nth-child(6) {
+  margin-left: 10px;
+}
+section .expert .expert-introductions .expert-introduction div {
+  margin-right: 13px;
+}
+section .expert .expert-introductions .expert-introduction div img {
+  width: 152px;
+  height: 190px;
+}
+section .expert .expert-introductions .expert-introduction ul {
+  height: 230px;
+  line-height: 26px;
+  font-size: 14px;
+}
+section .expert .expert-introductions .expert-introduction ul:last-child {
+  width: 222px;
+  height: 112px;
+}
+footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+footer .link {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: -25px;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer .kefus {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+footer .kefus .kefu {
+  font-size: 14px;
+  margin-right: 35px;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  line-height: 40px;
 }
